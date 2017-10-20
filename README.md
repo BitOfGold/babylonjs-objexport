@@ -14,11 +14,11 @@ You need to download texture files manually. (to the directory of .OBJ and .MAT 
 Example (mesh is a Mesh with StandardMaterial):
 
 
-  var obj = BABYLON.OBJExport.OBJ(mesh,true,'birdie');
-  var objlink = BABYLON.Tools.FileAsURL(obj);
-  var mtl = BABYLON.OBJExport.MTL(mesh,true);
-  var mtllink = BABYLON.Tools.FileAsURL(mtl);
-  $('#downloadobj A.obj').attr('href',objlink).attr('download','birdie.obj');
-  $('#downloadobj A.mtl').attr('href',mtllink).attr('download','birdie.mtl');
-  $('#downloadobj').show();
-
+    var obj = BABYLON.OBJExport.OBJ(mesh,true,'birdie');
+    var objlink = BABYLON.Tools.FileAsURL(obj);
+    var mtl = BABYLON.OBJExport.MTL(mesh,true);
+    var mtllink = BABYLON.Tools.FileAsURL(mtl);
+    $('#downloadobj A.obj').attr('href',objlink).attr('download','birdie.obj');
+    $('#downloadobj A.mtl').attr('href',mtllink).attr('download','birdie.mtl');
+    $('#downloadobj').show();
+    
