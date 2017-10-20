@@ -1,5 +1,6 @@
-Export and Download Meshes from BABYLON.js in .OBJ + .MTL format.
-*Now part of BABYLON.js, this repo is abadoned.*
+##Export and Download Meshes from BABYLON.js in .OBJ + .MTL format.##
+
+**Now part of BABYLON.js, this repo is abadoned.**
 
 Here is the exporter:
 https://github.com/BabylonJS/Babylon.js/blob/master/dist/serializers/babylon.objSerializer.js
